@@ -4,11 +4,11 @@
     <artifactId>mcMMO</artifactId>
     <version>2.1.228-SNAPSHOT</version>
     <name>mcMMO</name>
-    <url>https://github.com/mcMMO-Dev/mcMMO</url>
+    <url>https://github.com/DebuggerDan/mcMMO</url>
     <scm>
-        <url>https://github.com/mcMMO-Dev/mcMMO</url>
-        <connection>scm:git:git://github.com/mcMMO-Dev/mcMMO.git</connection>
-        <developerConnection>scm:git:git@github.com:mcMMO-Dev/mcMMO.git</developerConnection>
+        <url>https://github.com/DebuggerDan/mcMMO</url>
+        <connection>scm:git:git://github.com/DebuggerDan/mcMMO.git</connection>
+        <developerConnection>scm:git:git@github.com:DebuggerDan/mcMMO.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
