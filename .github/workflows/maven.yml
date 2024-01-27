@@ -49,4 +49,16 @@ jobs:
 
     # 4. Build via Maven 
     - name: Build via Maven
-      run: mvn verify -B --file pom.xml -DdisableXmlReport=true
+      run: mvn clean package install
+      
+    # 4b. Staging Jar Directories
+    - name: Staging Jar Directories
+      run: mkdir staging && cp target/*.jar staging
+      
+      
+    # 4c. Staging Jars
+    - name: Staging Jars
+      uses: actions/upload-artifact@v2
+      with:
+          name: Package
+          path: staging
